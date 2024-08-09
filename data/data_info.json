@@ -1,0 +1,66 @@
+{
+    "file_name": "output.csv",
+    "column_count": 8,
+    "column_info": {
+        "id": "int64",
+        "name": "object",
+        "date": "object",
+        "month_value": "int64",
+        "order_count": "int64",
+        "remain_value": "int64",
+        "unit_original_value": "int64",
+        "unit_value": "int64"
+    },
+    "first_5_rows": [
+        {
+            "id": 20028342,
+            "name": "Bộ chuyển mạng GL5610-16P DDC",
+            "date": "2022-07-08",
+            "month_value": 10458183955,
+            "order_count": 186,
+            "remain_value": 23067641409,
+            "unit_original_value": 55906500,
+            "unit_value": 56226795
+        },
+        {
+            "id": 20028342,
+            "name": "Bộ chuyển mạng GL5610-16P DDC",
+            "date": "2022-08-08",
+            "month_value": 723493425,
+            "order_count": 13,
+            "remain_value": 21874994931,
+            "unit_original_value": 55906500,
+            "unit_value": 55653340
+        },
+        {
+            "id": 20028342,
+            "name": "Bộ chuyển mạng GL5610-16P DDC",
+            "date": "2022-09-08",
+            "month_value": 0,
+            "order_count": 0,
+            "remain_value": 14531497771,
+            "unit_original_value": 55906500,
+            "unit_value": 55906500
+        },
+        {
+            "id": 20028342,
+            "name": "Bộ chuyển mạng GL5610-16P DDC",
+            "date": "2022-10-08",
+            "month_value": 20058930160,
+            "order_count": 370,
+            "remain_value": 39786833027,
+            "unit_original_value": 55906500,
+            "unit_value": 54213324
+        },
+        {
+            "id": 20028342,
+            "name": "Bộ chuyển mạng GL5610-16P DDC",
+            "date": "2022-11-08",
+            "month_value": 3707160250,
+            "order_count": 67,
+            "remain_value": 49069427238,
+            "unit_original_value": 55906500,
+            "unit_value": 55330750
+        }
+    ]
+}
