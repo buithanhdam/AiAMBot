@@ -1,0 +1,22 @@
+The data is stored in a file named **output.csv**. It has **8 columns**. 
+
+Here's the breakdown of the column types:
+
+* **id**: int64
+* **name**: object
+* **date**: object
+* **month_value**: int64
+* **order_count**: int64
+* **remain_value**: int64
+* **unit_original_value**: int64
+* **unit_value**: int64
+
+Here are the first 5 rows of the data:
+
+| id        | name                                     | date        | month_value     | order_count | remain_value      | unit_original_value | unit_value     |
+|-----------|-------------------------------------------|-------------|-----------------|-------------|-------------------|----------------------|-----------------|
+| 20028342 | Bộ chuyển mạng GL5610-16P DDC           | 2022-07-08 | 10458183955     | 186         | 23067641409       | 55906500            | 56226795        |
+| 20028342 | Bộ chuyển mạng GL5610-16P DDC           | 2022-08-08 | 723493425       | 13          | 21874994931       | 55906500            | 55653340        |
+| 20028342 | Bộ chuyển mạng GL5610-16P DDC           | 2022-09-08 | 0               | 0           | 14531497771       | 55906500            | 55906500        |
+| 20028342 | Bộ chuyển mạng GL5610-16P DDC           | 2022-10-08 | 20058930160     | 370         | 39786833027       | 55906500            | 54213324        |
+| 20028342 | Bộ chuyển mạng GL5610-16P DDC           | 2022-11-08 | 3707160250      | 67          | 49069427238       | 55906500            | 55330750        | 

@@ -5,6 +5,7 @@ import os
 # from llama_index.core.tools import QueryEngineTool, ToolMetadata
 # from llama_index.llms.groq import Groq
 
+
 def read_file(file_path):
   """
   function read file CSV or Excel.
@@ -46,8 +47,7 @@ def process_data_excel(df):
         print("Cols info:")
         print(data_head.info())
 
-def extract_json(file_info):
-  json_path = "./data/data_info.json"
+def extract_json(file_info,json_path):
   json_file = os.path.join(json_path)
   if os.path.exists(json_file):
       os.remove(json_file)
@@ -60,21 +60,26 @@ def extract_json(file_info):
     print("Error",e)
     return None
 
-def retrieve_json(json_file):
+def retrieve_json(json_path):
+  json_file = os.path.join(json_path)
   if os.path.exists(json_file):
     with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
-    print(json.dumps(data, ensure_ascii=False, indent=4))
+    # import sys
+    # sys.stdout.reconfigure(encoding='utf-8')
+    # print(json.dumps(data, ensure_ascii=False, indent=4))
+    return data
+    # first_5_rows = data.get('first_5_rows', [])
+    # df = pd.DataFrame(first_5_rows)
+    # return df
   else:
     print(f"File {json_file} does not exist .")
 
-def read_file_tool(file_path):
+def tool_process_data(file_path,json_path):
   df = read_file(file_path)
   file_info = process_data_csv(df,file_path)
-  json_path = extract_json(file_info)
+  json_path = extract_json(file_info,json_path)
 
-file_path = os.path.join("./data/output.csv") 
-read_file_tool(file_path)
-# retrieve_json(json_path)
 
-    
+def get_path():
+  print(os.path.dirname(__file__))

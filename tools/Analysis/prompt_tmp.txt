@@ -1,0 +1,60 @@
+1. Data Exploration and Interpretation
+- You can use ChatGPT to quickly summarise and interpret datasets, providing an initial understanding of data patterns and outliers.
+- Summarize the key characteristics of this dataset, including data types, missing values, and basic statistics.
+- Generate a concise summary of this dataset for non-technical stakeholders.
+- Provide insights into the distribution of numerical variables and identify any significant skewness or outliers.
+- Detect outliers in the 'sales' column and explain their impact on the analysis.
+- Examine the time series data for seasonality or trends and summarize your findings.
+- Calculate and interpret the correlation matrix for numerical variables, highlighting strong relationships.
+- Assess data quality, focusing on missing values, duplicate records, and data entry errors.
+- Identify anomalous patterns in the 'user_activity' log and suggest possible causes.
+2. Data Cleaning and Preprocessing
+- ChatGPT can assist in identifying and suggesting methods for handling missing data, outliers, and other data quality issues.
+- Suggest methods and best practices for cleaning and preprocessing this messy dataset.
+- How can I effectively handle outliers in the 'sales' column to ensure they don't skew the analysis?
+- Provide code examples in Python or R for handling missing values in a dataset.
+- How can I extract meaningful features from datetime columns, such as day of the week or month?
+- Recommend approaches to identify and remove duplicate records from the dataset.
+3. Statistical Analysis and Hypothesis Testing
+- As an analyst you can seek assistance from ChatGPT in formulating hypotheses, selecting appropriate statistical tests, and interpreting the results.
+- Help me design a hypothesis test to determine if there's a significant difference in conversion rates between two website versions.
+- Calculate the correlation coefficient between 'advertising spend' and 'sales revenue' in our dataset. Is the relationship significant?
+- Perform a t-test to compare the means of two independent groups in our data. What are the findings?
+- Conduct a linear regression analysis to predict 'sales' based on 'advertising spend.' Interpret the coefficients.
+- Calculate the required sample size for a hypothesis test with a specified power and effect size.
+4. Data Visualisation and Reporting
+- What type of chart or graph is most suitable for displaying this data?
+- Generate a bar chart to visualize the distribution of product sales by category.
+- Create a line graph to show the trend in website traffic over the past year.
+- Suggest the most appropriate type of chart or graph for representing the relationship between customer age and purchase frequency.
+- Which visualization method is best for displaying geographic distribution data?
+- Generate a heatmap to visualize the correlation matrix of numerical variables in our dataset.
+- Generate Python code to create a bar chart using Matplotlib to visualize product sales by category.
+- Create R code to generate a scatter plot to visualize the relationship between two numerical variables.
+- Produce a box plot to display the distribution of employee salaries in our organization.
+- Visualize the distribution of customer ages using a histogram.
+- Create a heatmap to show the concentration of website clicks across different time periods.
+- Generate a time series plot to show the daily stock prices of a selected company over the past year.
+- Create a calendar heatmap to visualize employee attendance patterns.
+- Illustrate the breakdown of marketing campaign expenses by channel using a pie chart.
+- Compare the distribution of website traffic sources with a donut chart.
+5. Coding and Scripting Assistance
+- Suggest ways to make my R script more efficient
+- Optimize this SQL query for better performance.
+- Review my Python script for data cleaning and suggest improvements to adhere to best coding practices.
+- I've written an R function for data transformation. Can you provide feedback on code readability and style?
+- I've been given a Python script that I need to understand. Can you help me interpret its overall functionality and purpose?
+- Provide a Python code snippet to read a CSV file into a DataFrame using Pandas.
+- Write an R script to perform linear regression analysis on a dataset and display the results.
+- Help me write an SQL query to retrieve the top 10 customers by total purchase amount.
+- Create an SQL query to join two tables and calculate the average order value.
+- Provide a regular expression pattern in Python for extracting email addresses from text data.
+- Explain how to authenticate and use the Twitter API in R.
+- Help me troubleshoot and fix an error in my Python code related to indexing a list.
+- Explain how to extract information from multiple pages of a website using web scraping.
+6. Explaining Complex Concepts
+- You can use ChatGPT to simplify and explain complex statistical or technical concepts to non-technical audience.
+- Provide a simple analogy or metaphor to explain linear regression and its purpose.
+- Create a concise explanation of the difference between correlation and causation using real-world examples.
+- Explain A/B testing and its significance for improving website user experience to a non-technical team.
+- How can I introduce the concept of machine learning to business executives without using technical jargon?
